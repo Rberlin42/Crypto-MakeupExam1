@@ -24,7 +24,9 @@ same, so hopefully this will suffice.
 My Part 3 implementation is in the file primality.cpp.  The numbers we needed to check are hard-coded in 
 for simplicity. Upon compiling and running the program, it will check if each number is prime using the
 Miller-Rabin algorithm, and if it is composite, it will then show one of its factors using the Pollard-Rho method.
-Since the numbers are fairly large, I also implemented a modular exponentiaion function to aid with the computation.
+My program runs the Miller-Rabin algorithm on each number 10 times, and computes the probablility that the 
+number is prime. Since the numbers are fairly large, I also implemented a modular exponentiation function to 
+aid with the computation.
 
 Answers:</br>
 31531 is prime with probability 0.999999</br>
