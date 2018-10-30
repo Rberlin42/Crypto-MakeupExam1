@@ -6,7 +6,7 @@ For part 1, my collision attack program is in the file collision_attack.py. The 
 demonstrates how a collision attack would work, by finding a common hash value for a legitimate
 message and a fraudulent message.  The legitimate message is the excerpt provided on the assignment, 
 and for the fraudulent message I used a paragraph from the textbook.  For this program I used a 
-hash size of 32 bits, and so therefore it computed 2^32 variations of each message, giving us a .5 
+hash size of 32 bits, and so therefore it computed 2^16 variations of each message, giving us a .5 
 probability of finding a collision.
 
 The program begins by generating all variations of the legitimate message, and then hashes each message.
