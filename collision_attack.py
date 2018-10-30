@@ -74,9 +74,6 @@ MD5 have improved so much that, as of 2007, it {takes just|only takes} a {few|co
 legitMessages = createAlternates(legitTemplate)
 
 # Hash all the messages
-#Initialize everything to None
-##print "initializing hash table..."
-##hashes = [None] * (2**HASH_SIZE)
 hashes = {}
 print "Hashing legitimate messages..."
 for m in legitMessages:
