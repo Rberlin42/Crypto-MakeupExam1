@@ -26,8 +26,8 @@ for simplicity. Upon compiling and running the program, it will check if each nu
 Miller-Rabin algorithm, and if it is composite, it will then show one of its factors using the Pollard-Rho method.
 Since the numbers are fairly large, I also implemented a modular exponentiaion function to aid with the computation.
 
-Answers:
-31531 is prime with probability 0.999999
-520482 is composite. It has a factor of 3
-485827 is prime with probability 0.999999
+Answers:</br>
+31531 is prime with probability 0.999999</br>
+520482 is composite. It has a factor of 3</br>
+485827 is prime with probability 0.999999</br>
 15485863 is prime with probability 0.999999
